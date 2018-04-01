@@ -1,0 +1,16 @@
+F:\GameDesigne\U3D_Project\ForestWar\GameServer\GameServer\obj\Debug\GameServer.csprojResolveAssemblyReference.cache
+F:\GameDesigne\U3D_Project\ForestWar\GameServer\GameServer\obj\Debug\GameServer.csproj.CoreCompileInputs.cache
+F:\GameDesigne\U3D_Project\ForestWar\GameServer\GameServer\bin\Debug\GameServer.exe.config
+F:\GameDesigne\U3D_Project\ForestWar\GameServer\GameServer\bin\Debug\GameServer.exe
+F:\GameDesigne\U3D_Project\ForestWar\GameServer\GameServer\bin\Debug\GameServer.pdb
+F:\GameDesigne\U3D_Project\ForestWar\GameServer\GameServer\bin\Debug\Common.dll
+F:\GameDesigne\U3D_Project\ForestWar\GameServer\GameServer\bin\Debug\MySql.Data.dll
+F:\GameDesigne\U3D_Project\ForestWar\GameServer\GameServer\bin\Debug\Common.pdb
+F:\GameDesigne\U3D_Project\ForestWar\GameServer\GameServer\bin\Debug\MySql.Data.xml
+F:\GameDesigne\U3D_Project\ForestWar\GameServer\GameServer\obj\Debug\GameServer.exe
+F:\GameDesigne\U3D_Project\ForestWar\GameServer\GameServer\obj\Debug\GameServer.pdb
+F:\GameDesigne\U3D_Project\ForestWar\GameServer\GameServer\bin\Debug\LitJson.dll
+F:\GameDesigne\U3D_Project\ForestWar\GameServer\GameServer\bin\Debug\GameServer.exe.manifest
+F:\GameDesigne\U3D_Project\ForestWar\GameServer\GameServer\bin\Debug\GameServer.application
+F:\GameDesigne\U3D_Project\ForestWar\GameServer\GameServer\obj\Debug\GameServer.exe.manifest
+F:\GameDesigne\U3D_Project\ForestWar\GameServer\GameServer\obj\Debug\GameServer.application

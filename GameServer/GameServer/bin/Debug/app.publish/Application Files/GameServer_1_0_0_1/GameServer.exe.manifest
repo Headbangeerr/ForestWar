@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="GameServer.exe" version="1.0.0.1" publicKeyToken="306aa5f64d76f7c4" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="GameServer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="GameServer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+         若想要更改 Windows 用户帐户控制级别，请
+         将 requestedExecutionLevel 节点替换为下述某项。
+
+       <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+       <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+       <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        若想要使用文件和注册表虚拟化以实现向后
+        兼容，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Common.dll" size="4608">
+      <assemblyIdentity name="Common" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>PLz9sm61pthozeXHy5aAAqmKyHkt1Ty48xt6ln3YPjk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GameServer.exe" size="22432">
+      <assemblyIdentity name="GameServer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>6MzN9xz7S7Znj7gax4RHVTfqMJKxv8rfCiwclm3ZnvE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LitJson.dll" size="56320">
+      <assemblyIdentity name="LitJson" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Z8LGhYBA5W5kOiVEKCwybJRfyofEWSsckMNZikk8Mkk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="396800">
+      <assemblyIdentity name="MySql.Data" version="6.10.6.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>CBQzax127Dbs/Y6bFlOJ+Z/LE1u5dqPy2WJ5azqJAUw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="GameServer.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=颜先森\lenovo" issuerKeyHash="72b4f2efcf8671aa6318f9b6ae7a91df454679a2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>89QwGjSbfeoPCXOmSQb8ThGmiWhsPkZTJxO/B/VcZfg=</DigestValue></Reference></SignedInfo><SignatureValue>OdYsrq2X2b4hnh+wyWQIVbORyQqiyRiLGCtjHovZ0gqb4XR++nUeNXgPyoFuwk2X4QNjs5clcxoSNyldatvDn2eIldMcb4+jpsjcJ7E/2qRJU+20J+Np3j65D34p0vCF7Qt2q39GE8tWxrM9/DsosA/fQqEA6IdEhv1I1Adk2ko=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ol0ew0hxh6fYrzCwSOdgOQ/9Z8HUJjRUS4Qss2UYIKtdAEiag8LnUkwKzbQJ2VJPrXJtqIFRWDP1rpNdsOVFlATJ4erMmohW4C1cwWokG0NGDmVXxdtPxA0/OxfJ0s1ikihyp46R1o6wZLlIIsPWzAE1AopNy+b8BRszLH6jRmU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f8655cf507bf132753463e6c6889a6114efc0649a673090fea7d9b341a30d4f3" Description="" Url=""><as:assemblyIdentity name="GameServer.exe" version="1.0.0.1" publicKeyToken="306aa5f64d76f7c4" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=颜先森\lenovo</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Z1ROBxsBK8wm/MMoquiJCn6Td2+z1N7b6rvmwEq+tR4=</DigestValue></Reference></SignedInfo><SignatureValue>f4UuAelyvZEzRT8qh2/RQwf8HqgWwYwD92WzFhkb30hqDK1Gt50QmEj/v5/evgDIzW9nJyzSYsg2Z7MWk0zyhrImKLIyzJjsfFM6SRsuuAVC3/6TnBnsCQgnVivBJ9MaPuJ99fetvQG5NEa/9Sh3mdvyaO9pAcGmoW0uL3rIqbg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ol0ew0hxh6fYrzCwSOdgOQ/9Z8HUJjRUS4Qss2UYIKtdAEiag8LnUkwKzbQJ2VJPrXJtqIFRWDP1rpNdsOVFlATJ4erMmohW4C1cwWokG0NGDmVXxdtPxA0/OxfJ0s1ikihyp46R1o6wZLlIIsPWzAE1AopNy+b8BRszLH6jRmU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQHUHLP+8qL6ZNAhLAA9s17TANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhSYnFFIaO4AXABsAGUAbgBvAHYAbzAeFw0xODAzMDgxMDI1MTBaFw0xOTAzMDgxNjI1MTBaMB8xHTAbBgNVBAMeFJicUUho7gBcAGwAZQBuAG8AdgBvMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCiXR7DSHGHp9ivMLBI52A5D/1nwdQmNFRLhCyzZRggq10ASJqDwudSTArNtAnZUk+tcm2ogVFYM/Wuk12w5UWUBMnh6syaiFbgLVzBaiQbQ0YOZVfF20/EDT87F8nSzWKSKHKnjpHWjrBkuUgiw9bMATUCik3L5vwFGzMsfqNGZQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAH3jBDvuhFDNGEqA1qPkez+syUi3R82OaeqiCNgVYRH4muVErt0HzA2DDKDk3l+cKxl7QKZdbN7Cjq5mTxVCW1ACKxNhRf0dDf5cwbMWYF9oUaeKC6UW2VjQIzTDit4dFdQomFNKxqic9V4jkrTaGs7/qk3fuUzl33z4upXwXtsy</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
