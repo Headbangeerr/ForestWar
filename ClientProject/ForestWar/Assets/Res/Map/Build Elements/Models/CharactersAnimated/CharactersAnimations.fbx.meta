@@ -1,0 +1,4183 @@
+fileFormatVersion: 2
+guid: 354ab125949a3304894bc11dd1c5b61f
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bip001
+    100002: Bip001 Head
+    100004: Bip001 L Calf
+    100006: Bip001 L Clavicle
+    100008: Bip001 L Foot
+    100010: Bip001 L Forearm
+    100012: Bip001 L Hand
+    100014: Bip001 L Thigh
+    100016: Bip001 L Toe0
+    100018: Bip001 L UpperArm
+    100020: Bip001 Neck
+    100022: Bip001 Pelvis
+    100024: Bip001 R Calf
+    100026: Bip001 R Clavicle
+    100028: Bip001 R Foot
+    100030: Bip001 R Forearm
+    100032: Bip001 R Hand
+    100034: Bip001 R Hand Prop
+    100036: Bip001 R Thigh
+    100038: Bip001 R Toe0
+    100040: Bip001 R UpperArm
+    100042: Bip001 Spine
+    100044: //RootNode
+    100046: H_Head
+    100048: H_Hips
+    100050: H_LFLeg
+    100052: H_LRLeg
+    100054: H_RFLeg
+    100056: H_RRLeg
+    100058: H_Tail1
+    100060: H_Tail2
+    100062: Horse_BLUE
+    100064: HorseMan_BLUE
+    100066: Hunter_BLUE
+    100068: Knight_BLUE
+    100070: LanceKnight_BLUE
+    100072: Leader_BLUE
+    100074: SwordsMan_BLUE
+    100076: Bip001_Ctrl:ChestEndEffector
+    100078: Bip001_Ctrl:ChestOriginEffector
+    100080: Bip001_Ctrl:Head
+    100082: Bip001_Ctrl:HeadEffector
+    100084: Bip001_Ctrl:Hips
+    100086: Bip001_Ctrl:HipsEffector
+    100088: Bip001_Ctrl:LeftAnkleEffector
+    100090: Bip001_Ctrl:LeftArm
+    100092: Bip001_Ctrl:LeftElbowEffector
+    100094: Bip001_Ctrl:LeftFoot
+    100096: Bip001_Ctrl:LeftFootPinky1
+    100098: Bip001_Ctrl:LeftFootPinkyEffector
+    100100: Bip001_Ctrl:LeftForeArm
+    100102: Bip001_Ctrl:LeftHand
+    100104: Bip001_Ctrl:LeftHipEffector
+    100106: Bip001_Ctrl:LeftKneeEffector
+    100108: Bip001_Ctrl:LeftLeg
+    100110: Bip001_Ctrl:LeftShoulder
+    100112: Bip001_Ctrl:LeftShoulderEffector
+    100114: Bip001_Ctrl:LeftUpLeg
+    100116: Bip001_Ctrl:LeftWristEffector
+    100118: Bip001_Ctrl:Neck
+    100120: Bip001_Ctrl:Reference
+    100122: Bip001_Ctrl:RightAnkleEffector
+    100124: Bip001_Ctrl:RightArm
+    100126: Bip001_Ctrl:RightElbowEffector
+    100128: Bip001_Ctrl:RightFoot
+    100130: Bip001_Ctrl:RightFootPinky1
+    100132: Bip001_Ctrl:RightFootPinkyEffector
+    100134: Bip001_Ctrl:RightForeArm
+    100136: Bip001_Ctrl:RightHand
+    100138: Bip001_Ctrl:RightHipEffector
+    100140: Bip001_Ctrl:RightKneeEffector
+    100142: Bip001_Ctrl:RightLeg
+    100144: Bip001_Ctrl:RightShoulder
+    100146: Bip001_Ctrl:RightShoulderEffector
+    100148: Bip001_Ctrl:RightUpLeg
+    100150: Bip001_Ctrl:RightWristEffector
+    100152: Bip001_Ctrl:Spine
+    100154: HipsEffectorAux1
+    100156: LeftAnkleEffectorAux1
+    100158: LeftWristEffectorAux1
+    100160: RightAnkleEffectorAux1
+    100162: RightWristEffectorAux1
+    100164: RightWristEffectorAux2
+    100166: CharactersAnimations:Bip001
+    100168: CharactersAnimations:Bip001 Head
+    100170: CharactersAnimations:Bip001 L Calf
+    100172: CharactersAnimations:Bip001 L Clavicle
+    100174: CharactersAnimations:Bip001 L Foot
+    100176: CharactersAnimations:Bip001 L Forearm
+    100178: CharactersAnimations:Bip001 L Hand
+    100180: CharactersAnimations:Bip001 L Thigh
+    100182: CharactersAnimations:Bip001 L Toe0
+    100184: CharactersAnimations:Bip001 L UpperArm
+    100186: CharactersAnimations:Bip001 Neck
+    100188: CharactersAnimations:Bip001 Pelvis
+    100190: CharactersAnimations:Bip001 R Calf
+    100192: CharactersAnimations:Bip001 R Clavicle
+    100194: CharactersAnimations:Bip001 R Foot
+    100196: CharactersAnimations:Bip001 R Forearm
+    100198: CharactersAnimations:Bip001 R Hand
+    100200: CharactersAnimations:Bip001 R Thigh
+    100202: CharactersAnimations:Bip001 R Toe0
+    100204: CharactersAnimations:Bip001 R UpperArm
+    100206: CharactersAnimations:Bip001 Spine
+    100208: CharactersAnimations:Bip001_Ctrl:ChestEndEffector
+    100210: CharactersAnimations:Bip001_Ctrl:ChestOriginEffector
+    100212: CharactersAnimations:Bip001_Ctrl:Head
+    100214: CharactersAnimations:Bip001_Ctrl:HeadEffector
+    100216: CharactersAnimations:Bip001_Ctrl:Hips
+    100218: CharactersAnimations:Bip001_Ctrl:HipsEffector
+    100220: CharactersAnimations:Bip001_Ctrl:LeftAnkleEffector
+    100222: CharactersAnimations:Bip001_Ctrl:LeftArm
+    100224: CharactersAnimations:Bip001_Ctrl:LeftElbowEffector
+    100226: CharactersAnimations:Bip001_Ctrl:LeftFoot
+    100228: CharactersAnimations:Bip001_Ctrl:LeftFootPinky1
+    100230: CharactersAnimations:Bip001_Ctrl:LeftFootPinkyEffector
+    100232: CharactersAnimations:Bip001_Ctrl:LeftForeArm
+    100234: CharactersAnimations:Bip001_Ctrl:LeftHand
+    100236: CharactersAnimations:Bip001_Ctrl:LeftHipEffector
+    100238: CharactersAnimations:Bip001_Ctrl:LeftKneeEffector
+    100240: CharactersAnimations:Bip001_Ctrl:LeftLeg
+    100242: CharactersAnimations:Bip001_Ctrl:LeftShoulder
+    100244: CharactersAnimations:Bip001_Ctrl:LeftShoulderEffector
+    100246: CharactersAnimations:Bip001_Ctrl:LeftUpLeg
+    100248: CharactersAnimations:Bip001_Ctrl:LeftWristEffector
+    100250: CharactersAnimations:Bip001_Ctrl:Neck
+    100252: CharactersAnimations:Bip001_Ctrl:Reference
+    100254: CharactersAnimations:Bip001_Ctrl:RightAnkleEffector
+    100256: CharactersAnimations:Bip001_Ctrl:RightArm
+    100258: CharactersAnimations:Bip001_Ctrl:RightElbowEffector
+    100260: CharactersAnimations:Bip001_Ctrl:RightFoot
+    100262: CharactersAnimations:Bip001_Ctrl:RightFootPinky1
+    100264: CharactersAnimations:Bip001_Ctrl:RightFootPinkyEffector
+    100266: CharactersAnimations:Bip001_Ctrl:RightForeArm
+    100268: CharactersAnimations:Bip001_Ctrl:RightHand
+    100270: CharactersAnimations:Bip001_Ctrl:RightHipEffector
+    100272: CharactersAnimations:Bip001_Ctrl:RightKneeEffector
+    100274: CharactersAnimations:Bip001_Ctrl:RightLeg
+    100276: CharactersAnimations:Bip001_Ctrl:RightShoulder
+    100278: CharactersAnimations:Bip001_Ctrl:RightShoulderEffector
+    100280: CharactersAnimations:Bip001_Ctrl:RightUpLeg
+    100282: CharactersAnimations:Bip001_Ctrl:RightWristEffector
+    100284: CharactersAnimations:Bip001_Ctrl:Spine
+    100286: CharactersAnimations:H_Head
+    100288: CharactersAnimations:H_Hips
+    100290: CharactersAnimations:H_LFLeg
+    100292: CharactersAnimations:H_LRLeg
+    100294: CharactersAnimations:H_RFLeg
+    100296: CharactersAnimations:H_RRLeg
+    100298: CharactersAnimations:H_Tail1
+    100300: CharactersAnimations:H_Tail2
+    100302: CharactersAnimations:HipsEffectorAux1
+    100304: CharactersAnimations:Horse_BLUE
+    100306: CharactersAnimations:HorseMan_BLUE
+    100308: CharactersAnimations:Hunter_BLUE
+    100310: CharactersAnimations:Knight_BLUE
+    100312: CharactersAnimations:LanceKnight_BLUE
+    100314: CharactersAnimations:Leader_BLUE
+    100316: CharactersAnimations:LeftAnkleEffectorAux1
+    100318: CharactersAnimations:LeftWristEffectorAux1
+    100320: CharactersAnimations:RightAnkleEffectorAux1
+    100322: CharactersAnimations:RightWristEffectorAux1
+    100324: CharactersAnimations:RightWristEffectorAux2
+    100326: CharactersAnimations:SwordsMan_BLUE
+    400000: Bip001
+    400002: Bip001 Head
+    400004: Bip001 L Calf
+    400006: Bip001 L Clavicle
+    400008: Bip001 L Foot
+    400010: Bip001 L Forearm
+    400012: Bip001 L Hand
+    400014: Bip001 L Thigh
+    400016: Bip001 L Toe0
+    400018: Bip001 L UpperArm
+    400020: Bip001 Neck
+    400022: Bip001 Pelvis
+    400024: Bip001 R Calf
+    400026: Bip001 R Clavicle
+    400028: Bip001 R Foot
+    400030: Bip001 R Forearm
+    400032: Bip001 R Hand
+    400034: Bip001 R Hand Prop
+    400036: Bip001 R Thigh
+    400038: Bip001 R Toe0
+    400040: Bip001 R UpperArm
+    400042: Bip001 Spine
+    400044: //RootNode
+    400046: H_Head
+    400048: H_Hips
+    400050: H_LFLeg
+    400052: H_LRLeg
+    400054: H_RFLeg
+    400056: H_RRLeg
+    400058: H_Tail1
+    400060: H_Tail2
+    400062: Horse_BLUE
+    400064: HorseMan_BLUE
+    400066: Hunter_BLUE
+    400068: Knight_BLUE
+    400070: LanceKnight_BLUE
+    400072: Leader_BLUE
+    400074: SwordsMan_BLUE
+    400076: Bip001_Ctrl:ChestEndEffector
+    400078: Bip001_Ctrl:ChestOriginEffector
+    400080: Bip001_Ctrl:Head
+    400082: Bip001_Ctrl:HeadEffector
+    400084: Bip001_Ctrl:Hips
+    400086: Bip001_Ctrl:HipsEffector
+    400088: Bip001_Ctrl:LeftAnkleEffector
+    400090: Bip001_Ctrl:LeftArm
+    400092: Bip001_Ctrl:LeftElbowEffector
+    400094: Bip001_Ctrl:LeftFoot
+    400096: Bip001_Ctrl:LeftFootPinky1
+    400098: Bip001_Ctrl:LeftFootPinkyEffector
+    400100: Bip001_Ctrl:LeftForeArm
+    400102: Bip001_Ctrl:LeftHand
+    400104: Bip001_Ctrl:LeftHipEffector
+    400106: Bip001_Ctrl:LeftKneeEffector
+    400108: Bip001_Ctrl:LeftLeg
+    400110: Bip001_Ctrl:LeftShoulder
+    400112: Bip001_Ctrl:LeftShoulderEffector
+    400114: Bip001_Ctrl:LeftUpLeg
+    400116: Bip001_Ctrl:LeftWristEffector
+    400118: Bip001_Ctrl:Neck
+    400120: Bip001_Ctrl:Reference
+    400122: Bip001_Ctrl:RightAnkleEffector
+    400124: Bip001_Ctrl:RightArm
+    400126: Bip001_Ctrl:RightElbowEffector
+    400128: Bip001_Ctrl:RightFoot
+    400130: Bip001_Ctrl:RightFootPinky1
+    400132: Bip001_Ctrl:RightFootPinkyEffector
+    400134: Bip001_Ctrl:RightForeArm
+    400136: Bip001_Ctrl:RightHand
+    400138: Bip001_Ctrl:RightHipEffector
+    400140: Bip001_Ctrl:RightKneeEffector
+    400142: Bip001_Ctrl:RightLeg
+    400144: Bip001_Ctrl:RightShoulder
+    400146: Bip001_Ctrl:RightShoulderEffector
+    400148: Bip001_Ctrl:RightUpLeg
+    400150: Bip001_Ctrl:RightWristEffector
+    400152: Bip001_Ctrl:Spine
+    400154: HipsEffectorAux1
+    400156: LeftAnkleEffectorAux1
+    400158: LeftWristEffectorAux1
+    400160: RightAnkleEffectorAux1
+    400162: RightWristEffectorAux1
+    400164: RightWristEffectorAux2
+    400166: CharactersAnimations:Bip001
+    400168: CharactersAnimations:Bip001 Head
+    400170: CharactersAnimations:Bip001 L Calf
+    400172: CharactersAnimations:Bip001 L Clavicle
+    400174: CharactersAnimations:Bip001 L Foot
+    400176: CharactersAnimations:Bip001 L Forearm
+    400178: CharactersAnimations:Bip001 L Hand
+    400180: CharactersAnimations:Bip001 L Thigh
+    400182: CharactersAnimations:Bip001 L Toe0
+    400184: CharactersAnimations:Bip001 L UpperArm
+    400186: CharactersAnimations:Bip001 Neck
+    400188: CharactersAnimations:Bip001 Pelvis
+    400190: CharactersAnimations:Bip001 R Calf
+    400192: CharactersAnimations:Bip001 R Clavicle
+    400194: CharactersAnimations:Bip001 R Foot
+    400196: CharactersAnimations:Bip001 R Forearm
+    400198: CharactersAnimations:Bip001 R Hand
+    400200: CharactersAnimations:Bip001 R Thigh
+    400202: CharactersAnimations:Bip001 R Toe0
+    400204: CharactersAnimations:Bip001 R UpperArm
+    400206: CharactersAnimations:Bip001 Spine
+    400208: CharactersAnimations:Bip001_Ctrl:ChestEndEffector
+    400210: CharactersAnimations:Bip001_Ctrl:ChestOriginEffector
+    400212: CharactersAnimations:Bip001_Ctrl:Head
+    400214: CharactersAnimations:Bip001_Ctrl:HeadEffector
+    400216: CharactersAnimations:Bip001_Ctrl:Hips
+    400218: CharactersAnimations:Bip001_Ctrl:HipsEffector
+    400220: CharactersAnimations:Bip001_Ctrl:LeftAnkleEffector
+    400222: CharactersAnimations:Bip001_Ctrl:LeftArm
+    400224: CharactersAnimations:Bip001_Ctrl:LeftElbowEffector
+    400226: CharactersAnimations:Bip001_Ctrl:LeftFoot
+    400228: CharactersAnimations:Bip001_Ctrl:LeftFootPinky1
+    400230: CharactersAnimations:Bip001_Ctrl:LeftFootPinkyEffector
+    400232: CharactersAnimations:Bip001_Ctrl:LeftForeArm
+    400234: CharactersAnimations:Bip001_Ctrl:LeftHand
+    400236: CharactersAnimations:Bip001_Ctrl:LeftHipEffector
+    400238: CharactersAnimations:Bip001_Ctrl:LeftKneeEffector
+    400240: CharactersAnimations:Bip001_Ctrl:LeftLeg
+    400242: CharactersAnimations:Bip001_Ctrl:LeftShoulder
+    400244: CharactersAnimations:Bip001_Ctrl:LeftShoulderEffector
+    400246: CharactersAnimations:Bip001_Ctrl:LeftUpLeg
+    400248: CharactersAnimations:Bip001_Ctrl:LeftWristEffector
+    400250: CharactersAnimations:Bip001_Ctrl:Neck
+    400252: CharactersAnimations:Bip001_Ctrl:Reference
+    400254: CharactersAnimations:Bip001_Ctrl:RightAnkleEffector
+    400256: CharactersAnimations:Bip001_Ctrl:RightArm
+    400258: CharactersAnimations:Bip001_Ctrl:RightElbowEffector
+    400260: CharactersAnimations:Bip001_Ctrl:RightFoot
+    400262: CharactersAnimations:Bip001_Ctrl:RightFootPinky1
+    400264: CharactersAnimations:Bip001_Ctrl:RightFootPinkyEffector
+    400266: CharactersAnimations:Bip001_Ctrl:RightForeArm
+    400268: CharactersAnimations:Bip001_Ctrl:RightHand
+    400270: CharactersAnimations:Bip001_Ctrl:RightHipEffector
+    400272: CharactersAnimations:Bip001_Ctrl:RightKneeEffector
+    400274: CharactersAnimations:Bip001_Ctrl:RightLeg
+    400276: CharactersAnimations:Bip001_Ctrl:RightShoulder
+    400278: CharactersAnimations:Bip001_Ctrl:RightShoulderEffector
+    400280: CharactersAnimations:Bip001_Ctrl:RightUpLeg
+    400282: CharactersAnimations:Bip001_Ctrl:RightWristEffector
+    400284: CharactersAnimations:Bip001_Ctrl:Spine
+    400286: CharactersAnimations:H_Head
+    400288: CharactersAnimations:H_Hips
+    400290: CharactersAnimations:H_LFLeg
+    400292: CharactersAnimations:H_LRLeg
+    400294: CharactersAnimations:H_RFLeg
+    400296: CharactersAnimations:H_RRLeg
+    400298: CharactersAnimations:H_Tail1
+    400300: CharactersAnimations:H_Tail2
+    400302: CharactersAnimations:HipsEffectorAux1
+    400304: CharactersAnimations:Horse_BLUE
+    400306: CharactersAnimations:HorseMan_BLUE
+    400308: CharactersAnimations:Hunter_BLUE
+    400310: CharactersAnimations:Knight_BLUE
+    400312: CharactersAnimations:LanceKnight_BLUE
+    400314: CharactersAnimations:Leader_BLUE
+    400316: CharactersAnimations:LeftAnkleEffectorAux1
+    400318: CharactersAnimations:LeftWristEffectorAux1
+    400320: CharactersAnimations:RightAnkleEffectorAux1
+    400322: CharactersAnimations:RightWristEffectorAux1
+    400324: CharactersAnimations:RightWristEffectorAux2
+    400326: CharactersAnimations:SwordsMan_BLUE
+    2300000: Horse_BLUE
+    2300002: HorseMan_BLUE
+    2300004: Hunter_BLUE
+    2300006: Knight_BLUE
+    2300008: LanceKnight_BLUE
+    2300010: Leader_BLUE
+    2300012: SwordsMan_BLUE
+    3300000: Horse_BLUE
+    3300002: HorseMan_BLUE
+    3300004: Hunter_BLUE
+    3300006: Knight_BLUE
+    3300008: LanceKnight_BLUE
+    3300010: Leader_BLUE
+    3300012: SwordsMan_BLUE
+    4300000: SwordsMan_BLUE
+    4300002: Leader_BLUE
+    4300004: HorseMan_BLUE
+    4300006: Horse_BLUE
+    4300008: Knight_BLUE
+    4300010: Hunter_BLUE
+    4300012: LanceKnight_BLUE
+    4300014: CharactersAnimations:Knight_BLUE
+    4300016: CharactersAnimations:SwordsMan_BLUE
+    4300018: CharactersAnimations:Leader_BLUE
+    4300020: CharactersAnimations:LanceKnight_BLUE
+    4300022: CharactersAnimations:Hunter_BLUE
+    4300024: CharactersAnimations:HorseMan_BLUE
+    4300026: CharactersAnimations:Horse_BLUE
+    7400000: Run_TwoHanded
+    7400002: Run_OneHanded
+    7400004: Run_Shield
+    7400006: Walk_TwoHanded
+    7400008: Walk_OneHanded
+    7400010: Walk_Shield
+    7400012: Jump
+    7400014: Die
+    7400016: Die_Shield
+    7400018: Evade
+    7400020: Attack_Knight
+    7400022: Attack_Leader
+    7400024: Attack_Sword
+    7400026: Attack_Lance
+    7400028: Attack_Bow
+    7400030: Horse_Run
+    7400032: Horse_Walk
+    7400034: Horse_Die
+    7400036: Horse_Evade
+    7400038: Horse_Jump
+    7400040: Horse_Attack
+    7400042: Take 001
+    7400044: Idle_OneHanded
+    7400046: Idle_Shield
+    7400048: Idle_TwoHanded
+    7400050: Horse_Idle
+    9500000: //RootNode
+    13700000: Horse_BLUE
+    13700002: HorseMan_BLUE
+    13700004: Hunter_BLUE
+    13700006: Knight_BLUE
+    13700008: LanceKnight_BLUE
+    13700010: Leader_BLUE
+    13700012: SwordsMan_BLUE
+    13700014: CharactersAnimations:Horse_BLUE
+    13700016: CharactersAnimations:HorseMan_BLUE
+    13700018: CharactersAnimations:Hunter_BLUE
+    13700020: CharactersAnimations:Knight_BLUE
+    13700022: CharactersAnimations:LanceKnight_BLUE
+    13700024: CharactersAnimations:Leader_BLUE
+    13700026: CharactersAnimations:SwordsMan_BLUE
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run_Shield
+      takeName: Run_Shield
+      firstFrame: 365
+      lastFrame: 385
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001 Pelvis
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot/Bip001 L Toe0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm/Bip001 L Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Hand Prop
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot/Bip001 R Toe0
+        weight: 1
+      - path: H_Hips
+        weight: 1
+      - path: H_Hips/H_Head
+        weight: 1
+      - path: H_Hips/H_LFLeg
+        weight: 1
+      - path: H_Hips/H_LRLeg
+        weight: 1
+      - path: H_Hips/H_RFLeg
+        weight: 1
+      - path: H_Hips/H_RRLeg
+        weight: 1
+      - path: H_Hips/H_Tail1
+        weight: 1
+      - path: H_Hips/H_Tail1/H_Tail2
+        weight: 1
+      - path: Horse_BLUE
+        weight: 0
+      - path: HorseMan_BLUE
+        weight: 0
+      - path: Hunter_BLUE
+        weight: 0
+      - path: Knight_BLUE
+        weight: 0
+      - path: LanceKnight_BLUE
+        weight: 0
+      - path: Leader_BLUE
+        weight: 0
+      - path: SwordsMan_BLUE
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: e6b9d417438f2c947becc0fb6ace0ab1, type: 2}
+    - serializedVersion: 16
+      name: Walk_TwoHanded
+      takeName: Walk_TwoHanded
+      firstFrame: 424
+      lastFrame: 458
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001 Pelvis
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot/Bip001 L Toe0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm/Bip001 L Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Hand Prop
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot/Bip001 R Toe0
+        weight: 1
+      - path: H_Hips
+        weight: 1
+      - path: H_Hips/H_Head
+        weight: 1
+      - path: H_Hips/H_LFLeg
+        weight: 1
+      - path: H_Hips/H_LRLeg
+        weight: 1
+      - path: H_Hips/H_RFLeg
+        weight: 1
+      - path: H_Hips/H_RRLeg
+        weight: 1
+      - path: H_Hips/H_Tail1
+        weight: 1
+      - path: H_Hips/H_Tail1/H_Tail2
+        weight: 1
+      - path: Horse_BLUE
+        weight: 0
+      - path: HorseMan_BLUE
+        weight: 0
+      - path: Hunter_BLUE
+        weight: 0
+      - path: Knight_BLUE
+        weight: 0
+      - path: LanceKnight_BLUE
+        weight: 0
+      - path: Leader_BLUE
+        weight: 0
+      - path: SwordsMan_BLUE
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: e6b9d417438f2c947becc0fb6ace0ab1, type: 2}
+    - serializedVersion: 16
+      name: Walk_OneHanded
+      takeName: Walk_OneHanded
+      firstFrame: 424
+      lastFrame: 458
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001 Pelvis
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot/Bip001 L Toe0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm/Bip001 L Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Hand Prop
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot/Bip001 R Toe0
+        weight: 1
+      - path: H_Hips
+        weight: 1
+      - path: H_Hips/H_Head
+        weight: 1
+      - path: H_Hips/H_LFLeg
+        weight: 1
+      - path: H_Hips/H_LRLeg
+        weight: 1
+      - path: H_Hips/H_RFLeg
+        weight: 1
+      - path: H_Hips/H_RRLeg
+        weight: 1
+      - path: H_Hips/H_Tail1
+        weight: 1
+      - path: H_Hips/H_Tail1/H_Tail2
+        weight: 1
+      - path: Horse_BLUE
+        weight: 0
+      - path: HorseMan_BLUE
+        weight: 0
+      - path: Hunter_BLUE
+        weight: 0
+      - path: Knight_BLUE
+        weight: 0
+      - path: LanceKnight_BLUE
+        weight: 0
+      - path: Leader_BLUE
+        weight: 0
+      - path: SwordsMan_BLUE
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: e6b9d417438f2c947becc0fb6ace0ab1, type: 2}
+    - serializedVersion: 16
+      name: Walk_Shield
+      takeName: Walk_Shield
+      firstFrame: 424
+      lastFrame: 458
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001 Pelvis
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot/Bip001 L Toe0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm/Bip001 L Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Hand Prop
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot/Bip001 R Toe0
+        weight: 1
+      - path: H_Hips
+        weight: 1
+      - path: H_Hips/H_Head
+        weight: 1
+      - path: H_Hips/H_LFLeg
+        weight: 1
+      - path: H_Hips/H_LRLeg
+        weight: 1
+      - path: H_Hips/H_RFLeg
+        weight: 1
+      - path: H_Hips/H_RRLeg
+        weight: 1
+      - path: H_Hips/H_Tail1
+        weight: 1
+      - path: H_Hips/H_Tail1/H_Tail2
+        weight: 1
+      - path: Horse_BLUE
+        weight: 0
+      - path: HorseMan_BLUE
+        weight: 0
+      - path: Hunter_BLUE
+        weight: 0
+      - path: Knight_BLUE
+        weight: 0
+      - path: LanceKnight_BLUE
+        weight: 0
+      - path: Leader_BLUE
+        weight: 0
+      - path: SwordsMan_BLUE
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: e6b9d417438f2c947becc0fb6ace0ab1, type: 2}
+    - serializedVersion: 16
+      name: Jump
+      takeName: Jump
+      firstFrame: 3
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001 Pelvis
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot/Bip001 L Toe0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm/Bip001 L Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Hand Prop
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot/Bip001 R Toe0
+        weight: 1
+      - path: CharactersAnimated 1
+        weight: 0
+      - path: CharactersAnimated 1/Horse_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Horse_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Horse_RED
+        weight: 0
+      - path: CharactersAnimated 1/Horse_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_RED
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_RED
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Knight_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Knight_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Knight_RED
+        weight: 0
+      - path: CharactersAnimated 1/Knight_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_RED
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Leader_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Leader_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Leader_RED
+        weight: 0
+      - path: CharactersAnimated 1/Leader_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_RED
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_YELLOW
+        weight: 0
+      - path: H_Hips
+        weight: 1
+      - path: H_Hips/H_Head
+        weight: 1
+      - path: H_Hips/H_LFLeg
+        weight: 1
+      - path: H_Hips/H_LRLeg
+        weight: 1
+      - path: H_Hips/H_RFLeg
+        weight: 1
+      - path: H_Hips/H_RRLeg
+        weight: 1
+      - path: H_Hips/H_Tail1
+        weight: 1
+      - path: H_Hips/H_Tail1/H_Tail2
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: e6b9d417438f2c947becc0fb6ace0ab1, type: 2}
+    - serializedVersion: 16
+      name: Die
+      takeName: Die
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001 Pelvis
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot/Bip001 L Toe0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm/Bip001 L Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Hand Prop
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot/Bip001 R Toe0
+        weight: 1
+      - path: CharactersAnimated 1
+        weight: 0
+      - path: CharactersAnimated 1/Horse_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Horse_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Horse_RED
+        weight: 0
+      - path: CharactersAnimated 1/Horse_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_RED
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_RED
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Knight_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Knight_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Knight_RED
+        weight: 0
+      - path: CharactersAnimated 1/Knight_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_RED
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Leader_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Leader_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Leader_RED
+        weight: 0
+      - path: CharactersAnimated 1/Leader_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_RED
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_YELLOW
+        weight: 0
+      - path: H_Hips
+        weight: 1
+      - path: H_Hips/H_Head
+        weight: 1
+      - path: H_Hips/H_LFLeg
+        weight: 1
+      - path: H_Hips/H_LRLeg
+        weight: 1
+      - path: H_Hips/H_RFLeg
+        weight: 1
+      - path: H_Hips/H_RRLeg
+        weight: 1
+      - path: H_Hips/H_Tail1
+        weight: 1
+      - path: H_Hips/H_Tail1/H_Tail2
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: e6b9d417438f2c947becc0fb6ace0ab1, type: 2}
+    - serializedVersion: 16
+      name: Die_Shield
+      takeName: Die_Shield
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001 Pelvis
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot/Bip001 L Toe0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm/Bip001 L Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Hand Prop
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot/Bip001 R Toe0
+        weight: 1
+      - path: CharactersAnimated 1
+        weight: 0
+      - path: CharactersAnimated 1/Horse_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Horse_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Horse_RED
+        weight: 0
+      - path: CharactersAnimated 1/Horse_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_RED
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_RED
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Knight_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Knight_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Knight_RED
+        weight: 0
+      - path: CharactersAnimated 1/Knight_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_RED
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Leader_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Leader_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Leader_RED
+        weight: 0
+      - path: CharactersAnimated 1/Leader_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_RED
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_YELLOW
+        weight: 0
+      - path: H_Hips
+        weight: 1
+      - path: H_Hips/H_Head
+        weight: 1
+      - path: H_Hips/H_LFLeg
+        weight: 1
+      - path: H_Hips/H_LRLeg
+        weight: 1
+      - path: H_Hips/H_RFLeg
+        weight: 1
+      - path: H_Hips/H_RRLeg
+        weight: 1
+      - path: H_Hips/H_Tail1
+        weight: 1
+      - path: H_Hips/H_Tail1/H_Tail2
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: e6b9d417438f2c947becc0fb6ace0ab1, type: 2}
+    - serializedVersion: 16
+      name: Evade
+      takeName: Evade
+      firstFrame: 555
+      lastFrame: 613
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001 Pelvis
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot/Bip001 L Toe0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm/Bip001 L Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Hand Prop
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot/Bip001 R Toe0
+        weight: 1
+      - path: CharactersAnimated 1
+        weight: 0
+      - path: CharactersAnimated 1/Horse_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Horse_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Horse_RED
+        weight: 0
+      - path: CharactersAnimated 1/Horse_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_RED
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_RED
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Knight_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Knight_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Knight_RED
+        weight: 0
+      - path: CharactersAnimated 1/Knight_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_RED
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Leader_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Leader_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Leader_RED
+        weight: 0
+      - path: CharactersAnimated 1/Leader_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_RED
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_YELLOW
+        weight: 0
+      - path: H_Hips
+        weight: 1
+      - path: H_Hips/H_Head
+        weight: 1
+      - path: H_Hips/H_LFLeg
+        weight: 1
+      - path: H_Hips/H_LRLeg
+        weight: 1
+      - path: H_Hips/H_RFLeg
+        weight: 1
+      - path: H_Hips/H_RRLeg
+        weight: 1
+      - path: H_Hips/H_Tail1
+        weight: 1
+      - path: H_Hips/H_Tail1/H_Tail2
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: e6b9d417438f2c947becc0fb6ace0ab1, type: 2}
+    - serializedVersion: 16
+      name: Attack_Knight
+      takeName: Attack_Knight
+      firstFrame: 0
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001 Pelvis
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot/Bip001 L Toe0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm/Bip001 L Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Hand Prop
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot/Bip001 R Toe0
+        weight: 1
+      - path: CharactersAnimated 1
+        weight: 0
+      - path: CharactersAnimated 1/Horse_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Horse_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Horse_RED
+        weight: 0
+      - path: CharactersAnimated 1/Horse_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_RED
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_RED
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Knight_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Knight_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Knight_RED
+        weight: 0
+      - path: CharactersAnimated 1/Knight_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_RED
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Leader_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Leader_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Leader_RED
+        weight: 0
+      - path: CharactersAnimated 1/Leader_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_RED
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_YELLOW
+        weight: 0
+      - path: H_Hips
+        weight: 1
+      - path: H_Hips/H_Head
+        weight: 1
+      - path: H_Hips/H_LFLeg
+        weight: 1
+      - path: H_Hips/H_LRLeg
+        weight: 1
+      - path: H_Hips/H_RFLeg
+        weight: 1
+      - path: H_Hips/H_RRLeg
+        weight: 1
+      - path: H_Hips/H_Tail1
+        weight: 1
+      - path: H_Hips/H_Tail1/H_Tail2
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: e6b9d417438f2c947becc0fb6ace0ab1, type: 2}
+    - serializedVersion: 16
+      name: Attack_Leader
+      takeName: Attack_Leader
+      firstFrame: 0
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001 Pelvis
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot/Bip001 L Toe0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm/Bip001 L Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Hand Prop
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot/Bip001 R Toe0
+        weight: 1
+      - path: CharactersAnimated 1
+        weight: 0
+      - path: CharactersAnimated 1/Horse_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Horse_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Horse_RED
+        weight: 0
+      - path: CharactersAnimated 1/Horse_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_RED
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_RED
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Knight_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Knight_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Knight_RED
+        weight: 0
+      - path: CharactersAnimated 1/Knight_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_RED
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Leader_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Leader_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Leader_RED
+        weight: 0
+      - path: CharactersAnimated 1/Leader_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_RED
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_YELLOW
+        weight: 0
+      - path: H_Hips
+        weight: 1
+      - path: H_Hips/H_Head
+        weight: 1
+      - path: H_Hips/H_LFLeg
+        weight: 1
+      - path: H_Hips/H_LRLeg
+        weight: 1
+      - path: H_Hips/H_RFLeg
+        weight: 1
+      - path: H_Hips/H_RRLeg
+        weight: 1
+      - path: H_Hips/H_Tail1
+        weight: 1
+      - path: H_Hips/H_Tail1/H_Tail2
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: e6b9d417438f2c947becc0fb6ace0ab1, type: 2}
+    - serializedVersion: 16
+      name: Attack_Sword
+      takeName: Attack_Sword
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001 Pelvis
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot/Bip001 L Toe0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm/Bip001 L Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Hand Prop
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot/Bip001 R Toe0
+        weight: 1
+      - path: CharactersAnimated 1
+        weight: 0
+      - path: CharactersAnimated 1/Horse_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Horse_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Horse_RED
+        weight: 0
+      - path: CharactersAnimated 1/Horse_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_RED
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_RED
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Knight_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Knight_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Knight_RED
+        weight: 0
+      - path: CharactersAnimated 1/Knight_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_RED
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Leader_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Leader_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Leader_RED
+        weight: 0
+      - path: CharactersAnimated 1/Leader_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_RED
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_YELLOW
+        weight: 0
+      - path: H_Hips
+        weight: 1
+      - path: H_Hips/H_Head
+        weight: 1
+      - path: H_Hips/H_LFLeg
+        weight: 1
+      - path: H_Hips/H_LRLeg
+        weight: 1
+      - path: H_Hips/H_RFLeg
+        weight: 1
+      - path: H_Hips/H_RRLeg
+        weight: 1
+      - path: H_Hips/H_Tail1
+        weight: 1
+      - path: H_Hips/H_Tail1/H_Tail2
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: e6b9d417438f2c947becc0fb6ace0ab1, type: 2}
+    - serializedVersion: 16
+      name: Attack_Lance
+      takeName: Attack_Lance
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001 Pelvis
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot/Bip001 L Toe0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm/Bip001 L Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Hand Prop
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot/Bip001 R Toe0
+        weight: 1
+      - path: CharactersAnimated 1
+        weight: 0
+      - path: CharactersAnimated 1/Horse_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Horse_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Horse_RED
+        weight: 0
+      - path: CharactersAnimated 1/Horse_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_RED
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_RED
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Knight_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Knight_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Knight_RED
+        weight: 0
+      - path: CharactersAnimated 1/Knight_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_RED
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Leader_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Leader_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Leader_RED
+        weight: 0
+      - path: CharactersAnimated 1/Leader_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_RED
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_YELLOW
+        weight: 0
+      - path: H_Hips
+        weight: 1
+      - path: H_Hips/H_Head
+        weight: 1
+      - path: H_Hips/H_LFLeg
+        weight: 1
+      - path: H_Hips/H_LRLeg
+        weight: 1
+      - path: H_Hips/H_RFLeg
+        weight: 1
+      - path: H_Hips/H_RRLeg
+        weight: 1
+      - path: H_Hips/H_Tail1
+        weight: 1
+      - path: H_Hips/H_Tail1/H_Tail2
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: e6b9d417438f2c947becc0fb6ace0ab1, type: 2}
+    - serializedVersion: 16
+      name: Attack_Bow
+      takeName: Attack_Bow
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001 Pelvis
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot/Bip001 L Toe0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm/Bip001 L Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Hand Prop
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot/Bip001 R Toe0
+        weight: 1
+      - path: CharactersAnimated 1
+        weight: 0
+      - path: CharactersAnimated 1/Horse_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Horse_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Horse_RED
+        weight: 0
+      - path: CharactersAnimated 1/Horse_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_RED
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_RED
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Knight_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Knight_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Knight_RED
+        weight: 0
+      - path: CharactersAnimated 1/Knight_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_RED
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Leader_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Leader_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Leader_RED
+        weight: 0
+      - path: CharactersAnimated 1/Leader_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_RED
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_YELLOW
+        weight: 0
+      - path: H_Hips
+        weight: 1
+      - path: H_Hips/H_Head
+        weight: 1
+      - path: H_Hips/H_LFLeg
+        weight: 1
+      - path: H_Hips/H_LRLeg
+        weight: 1
+      - path: H_Hips/H_RFLeg
+        weight: 1
+      - path: H_Hips/H_RRLeg
+        weight: 1
+      - path: H_Hips/H_Tail1
+        weight: 1
+      - path: H_Hips/H_Tail1/H_Tail2
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: e6b9d417438f2c947becc0fb6ace0ab1, type: 2}
+    - serializedVersion: 16
+      name: Horse_Run
+      takeName: Horse_Run
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001 Pelvis
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot/Bip001 L Toe0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm/Bip001 L Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Hand Prop
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot/Bip001 R Toe0
+        weight: 1
+      - path: H_Hips
+        weight: 1
+      - path: H_Hips/H_Head
+        weight: 1
+      - path: H_Hips/H_LFLeg
+        weight: 1
+      - path: H_Hips/H_LRLeg
+        weight: 1
+      - path: H_Hips/H_RFLeg
+        weight: 1
+      - path: H_Hips/H_RRLeg
+        weight: 1
+      - path: H_Hips/H_Tail1
+        weight: 1
+      - path: H_Hips/H_Tail1/H_Tail2
+        weight: 1
+      - path: Horse_BLUE
+        weight: 0
+      - path: HorseMan_BLUE
+        weight: 0
+      - path: Hunter_BLUE
+        weight: 0
+      - path: Knight_BLUE
+        weight: 0
+      - path: LanceKnight_BLUE
+        weight: 0
+      - path: Leader_BLUE
+        weight: 0
+      - path: SwordsMan_BLUE
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: e6b9d417438f2c947becc0fb6ace0ab1, type: 2}
+    - serializedVersion: 16
+      name: Horse_Walk
+      takeName: Horse_Walk
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001 Pelvis
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot/Bip001 L Toe0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm/Bip001 L Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Hand Prop
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot/Bip001 R Toe0
+        weight: 1
+      - path: H_Hips
+        weight: 1
+      - path: H_Hips/H_Head
+        weight: 1
+      - path: H_Hips/H_LFLeg
+        weight: 1
+      - path: H_Hips/H_LRLeg
+        weight: 1
+      - path: H_Hips/H_RFLeg
+        weight: 1
+      - path: H_Hips/H_RRLeg
+        weight: 1
+      - path: H_Hips/H_Tail1
+        weight: 1
+      - path: H_Hips/H_Tail1/H_Tail2
+        weight: 1
+      - path: Horse_BLUE
+        weight: 0
+      - path: HorseMan_BLUE
+        weight: 0
+      - path: Hunter_BLUE
+        weight: 0
+      - path: Knight_BLUE
+        weight: 0
+      - path: LanceKnight_BLUE
+        weight: 0
+      - path: Leader_BLUE
+        weight: 0
+      - path: SwordsMan_BLUE
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: e6b9d417438f2c947becc0fb6ace0ab1, type: 2}
+    - serializedVersion: 16
+      name: Horse_Die
+      takeName: Horse_Die
+      firstFrame: 0
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001 Pelvis
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot/Bip001 L Toe0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm/Bip001 L Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Hand Prop
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot/Bip001 R Toe0
+        weight: 1
+      - path: CharactersAnimated 1
+        weight: 0
+      - path: CharactersAnimated 1/Horse_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Horse_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Horse_RED
+        weight: 0
+      - path: CharactersAnimated 1/Horse_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_RED
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_RED
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Knight_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Knight_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Knight_RED
+        weight: 0
+      - path: CharactersAnimated 1/Knight_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_RED
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Leader_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Leader_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Leader_RED
+        weight: 0
+      - path: CharactersAnimated 1/Leader_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_RED
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_YELLOW
+        weight: 0
+      - path: H_Hips
+        weight: 1
+      - path: H_Hips/H_Head
+        weight: 1
+      - path: H_Hips/H_LFLeg
+        weight: 1
+      - path: H_Hips/H_LRLeg
+        weight: 1
+      - path: H_Hips/H_RFLeg
+        weight: 1
+      - path: H_Hips/H_RRLeg
+        weight: 1
+      - path: H_Hips/H_Tail1
+        weight: 1
+      - path: H_Hips/H_Tail1/H_Tail2
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: e6b9d417438f2c947becc0fb6ace0ab1, type: 2}
+    - serializedVersion: 16
+      name: Horse_Evade
+      takeName: Horse_Evade
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001 Pelvis
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot/Bip001 L Toe0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm/Bip001 L Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Hand Prop
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot/Bip001 R Toe0
+        weight: 1
+      - path: CharactersAnimated 1
+        weight: 0
+      - path: CharactersAnimated 1/Horse_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Horse_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Horse_RED
+        weight: 0
+      - path: CharactersAnimated 1/Horse_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_RED
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_RED
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Knight_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Knight_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Knight_RED
+        weight: 0
+      - path: CharactersAnimated 1/Knight_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_RED
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Leader_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Leader_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Leader_RED
+        weight: 0
+      - path: CharactersAnimated 1/Leader_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_RED
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_YELLOW
+        weight: 0
+      - path: H_Hips
+        weight: 1
+      - path: H_Hips/H_Head
+        weight: 1
+      - path: H_Hips/H_LFLeg
+        weight: 1
+      - path: H_Hips/H_LRLeg
+        weight: 1
+      - path: H_Hips/H_RFLeg
+        weight: 1
+      - path: H_Hips/H_RRLeg
+        weight: 1
+      - path: H_Hips/H_Tail1
+        weight: 1
+      - path: H_Hips/H_Tail1/H_Tail2
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: e6b9d417438f2c947becc0fb6ace0ab1, type: 2}
+    - serializedVersion: 16
+      name: Horse_Jump
+      takeName: Horse_Jump
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001 Pelvis
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot/Bip001 L Toe0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm/Bip001 L Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Hand Prop
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot/Bip001 R Toe0
+        weight: 1
+      - path: CharactersAnimated 1
+        weight: 0
+      - path: CharactersAnimated 1/Horse_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Horse_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Horse_RED
+        weight: 0
+      - path: CharactersAnimated 1/Horse_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_RED
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_RED
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Knight_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Knight_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Knight_RED
+        weight: 0
+      - path: CharactersAnimated 1/Knight_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_RED
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Leader_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Leader_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Leader_RED
+        weight: 0
+      - path: CharactersAnimated 1/Leader_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_RED
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_YELLOW
+        weight: 0
+      - path: H_Hips
+        weight: 1
+      - path: H_Hips/H_Head
+        weight: 1
+      - path: H_Hips/H_LFLeg
+        weight: 1
+      - path: H_Hips/H_LRLeg
+        weight: 1
+      - path: H_Hips/H_RFLeg
+        weight: 1
+      - path: H_Hips/H_RRLeg
+        weight: 1
+      - path: H_Hips/H_Tail1
+        weight: 1
+      - path: H_Hips/H_Tail1/H_Tail2
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: e6b9d417438f2c947becc0fb6ace0ab1, type: 2}
+    - serializedVersion: 16
+      name: Horse_Attack
+      takeName: Horse_Attack
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001 Pelvis
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot/Bip001 L Toe0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm/Bip001 L Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Hand Prop
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot/Bip001 R Toe0
+        weight: 1
+      - path: CharactersAnimated 1
+        weight: 0
+      - path: CharactersAnimated 1/Horse_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Horse_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Horse_RED
+        weight: 0
+      - path: CharactersAnimated 1/Horse_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_RED
+        weight: 0
+      - path: CharactersAnimated 1/HorseMan_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_RED
+        weight: 0
+      - path: CharactersAnimated 1/Hunter_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Knight_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Knight_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Knight_RED
+        weight: 0
+      - path: CharactersAnimated 1/Knight_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_RED
+        weight: 0
+      - path: CharactersAnimated 1/LanceKnight_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/Leader_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/Leader_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/Leader_RED
+        weight: 0
+      - path: CharactersAnimated 1/Leader_YELLOW
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_BLUE
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_GREEN
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_RED
+        weight: 0
+      - path: CharactersAnimated 1/SwordsMan_YELLOW
+        weight: 0
+      - path: H_Hips
+        weight: 1
+      - path: H_Hips/H_Head
+        weight: 1
+      - path: H_Hips/H_LFLeg
+        weight: 1
+      - path: H_Hips/H_LRLeg
+        weight: 1
+      - path: H_Hips/H_RFLeg
+        weight: 1
+      - path: H_Hips/H_RRLeg
+        weight: 1
+      - path: H_Hips/H_Tail1
+        weight: 1
+      - path: H_Hips/H_Tail1/H_Tail2
+        weight: 1
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: e6b9d417438f2c947becc0fb6ace0ab1, type: 2}
+    - serializedVersion: 16
+      name: Idle_OneHanded
+      takeName: Idle_OneHanded
+      firstFrame: 0
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001 Pelvis
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot/Bip001 L Toe0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm/Bip001 L Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Hand Prop
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot/Bip001 R Toe0
+        weight: 1
+      - path: H_Hips
+        weight: 1
+      - path: H_Hips/H_Head
+        weight: 1
+      - path: H_Hips/H_LFLeg
+        weight: 1
+      - path: H_Hips/H_LRLeg
+        weight: 1
+      - path: H_Hips/H_RFLeg
+        weight: 1
+      - path: H_Hips/H_RRLeg
+        weight: 1
+      - path: H_Hips/H_Tail1
+        weight: 1
+      - path: H_Hips/H_Tail1/H_Tail2
+        weight: 1
+      - path: Horse_BLUE
+        weight: 0
+      - path: HorseMan_BLUE
+        weight: 0
+      - path: Hunter_BLUE
+        weight: 0
+      - path: Knight_BLUE
+        weight: 0
+      - path: LanceKnight_BLUE
+        weight: 0
+      - path: Leader_BLUE
+        weight: 0
+      - path: SwordsMan_BLUE
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: e6b9d417438f2c947becc0fb6ace0ab1, type: 2}
+    - serializedVersion: 16
+      name: Idle_Shield
+      takeName: Idle_Shield
+      firstFrame: 50
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001 Pelvis
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot/Bip001 L Toe0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm/Bip001 L Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Hand Prop
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot/Bip001 R Toe0
+        weight: 1
+      - path: H_Hips
+        weight: 1
+      - path: H_Hips/H_Head
+        weight: 1
+      - path: H_Hips/H_LFLeg
+        weight: 1
+      - path: H_Hips/H_LRLeg
+        weight: 1
+      - path: H_Hips/H_RFLeg
+        weight: 1
+      - path: H_Hips/H_RRLeg
+        weight: 1
+      - path: H_Hips/H_Tail1
+        weight: 1
+      - path: H_Hips/H_Tail1/H_Tail2
+        weight: 1
+      - path: Horse_BLUE
+        weight: 0
+      - path: HorseMan_BLUE
+        weight: 0
+      - path: Hunter_BLUE
+        weight: 0
+      - path: Knight_BLUE
+        weight: 0
+      - path: LanceKnight_BLUE
+        weight: 0
+      - path: Leader_BLUE
+        weight: 0
+      - path: SwordsMan_BLUE
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: e6b9d417438f2c947becc0fb6ace0ab1, type: 2}
+    - serializedVersion: 16
+      name: Idle_TwoHanded
+      takeName: Idle_TwoHanded
+      firstFrame: 0
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001 Pelvis
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot/Bip001 L Toe0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm/Bip001 L Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Hand Prop
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot/Bip001 R Toe0
+        weight: 1
+      - path: H_Hips
+        weight: 1
+      - path: H_Hips/H_Head
+        weight: 1
+      - path: H_Hips/H_LFLeg
+        weight: 1
+      - path: H_Hips/H_LRLeg
+        weight: 1
+      - path: H_Hips/H_RFLeg
+        weight: 1
+      - path: H_Hips/H_RRLeg
+        weight: 1
+      - path: H_Hips/H_Tail1
+        weight: 1
+      - path: H_Hips/H_Tail1/H_Tail2
+        weight: 1
+      - path: Horse_BLUE
+        weight: 0
+      - path: HorseMan_BLUE
+        weight: 0
+      - path: Hunter_BLUE
+        weight: 0
+      - path: Knight_BLUE
+        weight: 0
+      - path: LanceKnight_BLUE
+        weight: 0
+      - path: Leader_BLUE
+        weight: 0
+      - path: SwordsMan_BLUE
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: e6b9d417438f2c947becc0fb6ace0ab1, type: 2}
+    - serializedVersion: 16
+      name: Horse_Idle
+      takeName: Horse_Idle
+      firstFrame: 0
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001 Pelvis
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot/Bip001 L Toe0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm/Bip001 L Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Hand Prop
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot/Bip001 R Toe0
+        weight: 1
+      - path: H_Hips
+        weight: 1
+      - path: H_Hips/H_Head
+        weight: 1
+      - path: H_Hips/H_LFLeg
+        weight: 1
+      - path: H_Hips/H_LRLeg
+        weight: 1
+      - path: H_Hips/H_RFLeg
+        weight: 1
+      - path: H_Hips/H_RRLeg
+        weight: 1
+      - path: H_Hips/H_Tail1
+        weight: 1
+      - path: H_Hips/H_Tail1/H_Tail2
+        weight: 1
+      - path: Horse_BLUE
+        weight: 0
+      - path: HorseMan_BLUE
+        weight: 0
+      - path: Hunter_BLUE
+        weight: 0
+      - path: Knight_BLUE
+        weight: 0
+      - path: LanceKnight_BLUE
+        weight: 0
+      - path: Leader_BLUE
+        weight: 0
+      - path: SwordsMan_BLUE
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: e6b9d417438f2c947becc0fb6ace0ab1, type: 2}
+    - serializedVersion: 16
+      name: Run_TwoHanded
+      takeName: Run_TwoHanded
+      firstFrame: 365
+      lastFrame: 385
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001 Pelvis
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot/Bip001 L Toe0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm/Bip001 L Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Hand Prop
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot/Bip001 R Toe0
+        weight: 1
+      - path: H_Hips
+        weight: 1
+      - path: H_Hips/H_Head
+        weight: 1
+      - path: H_Hips/H_LFLeg
+        weight: 1
+      - path: H_Hips/H_LRLeg
+        weight: 1
+      - path: H_Hips/H_RFLeg
+        weight: 1
+      - path: H_Hips/H_RRLeg
+        weight: 1
+      - path: H_Hips/H_Tail1
+        weight: 1
+      - path: H_Hips/H_Tail1/H_Tail2
+        weight: 1
+      - path: Horse_BLUE
+        weight: 0
+      - path: HorseMan_BLUE
+        weight: 0
+      - path: Hunter_BLUE
+        weight: 0
+      - path: Knight_BLUE
+        weight: 0
+      - path: LanceKnight_BLUE
+        weight: 0
+      - path: Leader_BLUE
+        weight: 0
+      - path: SwordsMan_BLUE
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: e6b9d417438f2c947becc0fb6ace0ab1, type: 2}
+    - serializedVersion: 16
+      name: Run_OneHanded
+      takeName: Run_OneHanded
+      firstFrame: 365
+      lastFrame: 385
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001
+        weight: 1
+      - path: Bip001/Bip001 Pelvis
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 L Thigh/Bip001 L Calf/Bip001
+          L Foot/Bip001 L Toe0
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm/Bip001 L Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Neck/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Hand Prop
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot
+        weight: 1
+      - path: Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 R Thigh/Bip001 R Calf/Bip001
+          R Foot/Bip001 R Toe0
+        weight: 1
+      - path: H_Hips
+        weight: 1
+      - path: H_Hips/H_Head
+        weight: 1
+      - path: H_Hips/H_LFLeg
+        weight: 1
+      - path: H_Hips/H_LRLeg
+        weight: 1
+      - path: H_Hips/H_RFLeg
+        weight: 1
+      - path: H_Hips/H_RRLeg
+        weight: 1
+      - path: H_Hips/H_Tail1
+        weight: 1
+      - path: H_Hips/H_Tail1/H_Tail2
+        weight: 1
+      - path: Horse_BLUE
+        weight: 0
+      - path: HorseMan_BLUE
+        weight: 0
+      - path: Hunter_BLUE
+        weight: 0
+      - path: Knight_BLUE
+        weight: 0
+      - path: LanceKnight_BLUE
+        weight: 0
+      - path: Leader_BLUE
+        weight: 0
+      - path: SwordsMan_BLUE
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 101100000, guid: e6b9d417438f2c947becc0fb6ace0ab1, type: 2}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0170000009
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Bip001 Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 Neck
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 L Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Bip001 R Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: CharactersAnimations(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Horse_BLUE
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 10, y: 10, z: 10}
+      transformModified: 1
+    - name: HorseMan_BLUE
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 10, y: 10, z: 10}
+      transformModified: 1
+    - name: Hunter_BLUE
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 10, y: 10, z: 10}
+      transformModified: 1
+    - name: Knight_BLUE
+      position: {x: 0, y: -9.18690812e-09, z: 0}
+      rotation: {x: -.5, y: -.5, z: -.5, w: .5}
+      scale: {x: 10, y: 10, z: 10}
+      transformModified: 1
+    - name: LanceKnight_BLUE
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 10, y: 10, z: 10}
+      transformModified: 1
+    - name: Leader_BLUE
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 10, y: 10, z: 10}
+      transformModified: 1
+    - name: SwordsMan_BLUE
+      position: {x: -.0135434875, y: 0, z: 0}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106829}
+      scale: {x: 10, y: 10, z: 10}
+      transformModified: 1
+    - name: H_Hips
+      position: {x: -4.05311624e-08, y: .992600083, z: -.333565176}
+      rotation: {x: .00411115214, y: .707094908, z: .00411086995, w: .707094789}
+      scale: {x: 10.000001, y: 10, z: 10}
+      transformModified: 1
+    - name: H_Head
+      position: {x: -.0613837205, y: .00440122187, z: -1.62124643e-08}
+      rotation: {x: .937322497, y: -.348463178, z: -1.98067838e-08, w: 1.34698695e-07}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: H_LFLeg
+      position: {x: -.0797675997, y: -.034048751, z: -.0243308563}
+      rotation: {x: .703880131, y: .710318863, z: -9.28699464e-08, w: 2.82896679e-07}
+      scale: {x: .999999881, y: .999999881, z: 1}
+      transformModified: 1
+    - name: H_RFLeg
+      position: {x: -.0797444135, y: -.032056015, z: .0189283323}
+      rotation: {x: .768727601, y: .639576316, z: 5.47894992e-08, w: 3.0085306e-07}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: H_Tail1
+      position: {x: .0117057478, y: .00843402371, z: 3.86535269e-15}
+      rotation: {x: -.15401274, y: .988068879, z: -3.94707996e-07, w: 6.1524112e-08}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: H_Tail2
+      position: {x: -.0368675478, y: 1.21593482e-08, z: 3.63474673e-09}
+      rotation: {x: -7.12048518e-08, y: -1.38395166e-07, z: .0218849964, w: .999760509}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: H_RRLeg
+      position: {x: .0173942037, y: -.0336838439, z: .0201042909}
+      rotation: {x: .676030576, y: .736873567, z: 1.0622238e-07, w: 2.78158495e-07}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: H_LRLeg
+      position: {x: .0249502603, y: -.0351668037, z: -.0266755912}
+      rotation: {x: .726859689, y: .686785996, z: 1.57576693e-07, w: 4.00700031e-07}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bip001
+      position: {x: .00302283559, y: .864492536, z: .00164357899}
+      rotation: {x: -.470935225, y: .47248742, z: .537427485, w: .515894711}
+      scale: {x: 10.0000038, y: 10.0000029, z: 10.0000038}
+      transformModified: 1
+    - name: Bip001 Pelvis
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -.499999672, y: .500000358, z: .499999672, w: .500000358}
+      scale: {x: 1, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: Bip001 Spine
+      position: {x: -.016677266, y: -3.28629321e-05, z: 3.41119204e-08}
+      rotation: {x: -1.45375122e-06, y: 1.02928175e-06, z: -.000398262491, w: .99999994}
+      scale: {x: .999999821, y: .999999762, z: .999999821}
+      transformModified: 1
+    - name: Bip001 Neck
+      position: {x: -.0412822999, y: -1.74985471e-05, z: 1.12329998e-11}
+      rotation: {x: 1.73472348e-18, y: -6.50521303e-19, z: 1.12847467e-36, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bip001 Head
+      position: {x: -.0219740029, y: 1.18650778e-09, z: 2.94152092e-10}
+      rotation: {x: -1.2651347e-07, y: 8.00124269e-08, z: .000398843462, w: .99999994}
+      scale: {x: 1.00000024, y: 1.00000024, z: 1.00000024}
+      transformModified: 1
+    - name: Bip001 L Clavicle
+      position: {x: -8.30472313e-09, y: 1.74884663e-05, z: .00375485769}
+      rotation: {x: .707106769, y: .000281529356, z: -.707106769, w: .000281529356}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: Bip001 L UpperArm
+      position: {x: -.0167676285, y: 1.34672939e-09, z: 9.99621008e-09}
+      rotation: {x: .00468415907, y: -.00852101762, z: -.00131620269, w: .999951899}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: Bip001 L Forearm
+      position: {x: -.0362759605, y: -7.55278728e-10, z: -2.24466792e-08}
+      rotation: {x: 0, y: 0, z: .00292508421, w: .999995708}
+      scale: {x: .999999762, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: Bip001 L Hand
+      position: {x: -.0298544001, y: 5.63467992e-08, z: 4.24852953e-09}
+      rotation: {x: -.706825376, y: 3.90893692e-05, z: -3.82156177e-05, w: .707388163}
+      scale: {x: .999999881, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: Bip001 R Clavicle
+      position: {x: -1.2258619e-08, y: 1.75087407e-05, z: -.00375485769}
+      rotation: {x: .707106769, y: .000281529356, z: .707106769, w: -.000281529356}
+      scale: {x: 1, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: Bip001 R UpperArm
+      position: {x: -.0167676304, y: 4.08672846e-10, z: -2.79610091e-09}
+      rotation: {x: -.00468535209, y: .00852038525, z: -.00146538089, w: .999951661}
+      scale: {x: .999999881, y: 1, z: 1}
+      transformModified: 1
+    - name: Bip001 R Forearm
+      position: {x: -.0362759903, y: 2.18738486e-10, z: -6.38144071e-09}
+      rotation: {x: 0, y: 0, z: .00325577427, w: .999994695}
+      scale: {x: 1.00000012, y: .999999881, z: 1}
+      transformModified: 1
+    - name: Bip001 R Hand
+      position: {x: -.0298544597, y: 6.73383127e-08, z: -1.67099312e-09}
+      rotation: {x: .304105878, y: -.70998162, z: .557672322, w: .304051697}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000036}
+      transformModified: 1
+    - name: Bip001 R Hand Prop
+      position: {x: .0153099056, y: .0143682081, z: .0206467435}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: .999999881, y: .99999994, z: 1}
+      transformModified: 1
+    - name: Bip001 R Thigh
+      position: {x: .0166772399, y: 4.62063144e-05, z: -.0180967115}
+      rotation: {x: -.0503777899, y: .998730242, z: 1.34330617e-06, w: 1.98895862e-07}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: Bip001 R Calf
+      position: {x: -.0466676913, y: -3.16004889e-09, z: 7.27407956e-09}
+      rotation: {x: 0, y: 0, z: .0998349488, w: .995003998}
+      scale: {x: .999999762, y: 1, z: .999999821}
+      transformModified: 1
+    - name: Bip001 R Foot
+      position: {x: -.0331036486, y: -1.18069792e-07, z: 2.70214917e-09}
+      rotation: {x: -8.30005842e-09, y: 1.36373913e-07, z: -.0499798693, w: .998750269}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1.00000024}
+      transformModified: 1
+    - name: Bip001 R Toe0
+      position: {x: -.0123373829, y: .0158776827, z: 1.60143021e-09}
+      rotation: {x: 4.82715734e-07, y: 4.2578975e-07, z: -.707106829, w: .707106829}
+      scale: {x: .999999821, y: 1.00000012, z: .999999821}
+      transformModified: 1
+    - name: Bip001 L Thigh
+      position: {x: .0166772399, y: 4.61044838e-05, z: .0180967133}
+      rotation: {x: -.0503772646, y: .998730302, z: 1.46287891e-06, w: -7.3789522e-08}
+      scale: {x: 1.00000024, y: 1.00000024, z: 1.00000012}
+      transformModified: 1
+    - name: Bip001 L Calf
+      position: {x: -.0466676764, y: 4.11258982e-09, z: 5.28835864e-09}
+      rotation: {x: 0, y: 0, z: .0998340473, w: .995004117}
+      scale: {x: .999999821, y: .999999881, z: 1}
+      transformModified: 1
+    - name: Bip001 L Foot
+      position: {x: -.0331036337, y: -1.12645182e-07, z: 6.84835788e-09}
+      rotation: {x: 2.05911697e-08, y: -5.9006652e-08, z: -.0499794111, w: .998750269}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: Bip001 L Toe0
+      position: {x: -.0123373913, y: .0158776958, z: 1.18034549e-09}
+      rotation: {x: 3.55001816e-07, y: 3.01793676e-07, z: -.707106829, w: .707106829}
+      scale: {x: .999999821, y: 1.00000024, z: .999999821}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

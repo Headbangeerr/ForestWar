@@ -1,0 +1,32 @@
+{
+  "panelInfoList": [
+    {
+      "panelTypeStr": "Start",
+      "panelPath": "UIPanel/StartPanel"
+    },
+    {
+      "panelTypeStr": "Login",
+      "panelPath": "UIPanel/LoginPanel"
+    },
+    {
+      "panelTypeStr": "Register",
+      "panelPath": "UIPanel/RegisterPanel"
+    },
+    {
+      "panelTypeStr": "Message",
+      "panelPath": "UIPanel/MessagePanel"
+    },
+    {
+      "panelTypeStr": "RoomList",
+      "panelPath": "UIPanel/RoomListPanel"
+    },
+    {
+      "panelTypeStr": "Room",
+      "panelPath": "UIPanel/RoomPanel"
+    },
+    {
+      "panelTypeStr": "Game",
+      "panelPath": "UIPanel/GamePanel"
+    }
+  ]
+}
